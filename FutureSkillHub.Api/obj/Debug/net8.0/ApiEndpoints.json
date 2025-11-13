@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "FutureSkillHub.Api.Controllers.CursoV1Controller",
+    "Method": "Get",
+    "RelativePath": "api/v1/cursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FutureSkillHub.Api.Controllers.CursoV1Controller",
+    "Method": "Post",
+    "RelativePath": "api/v1/cursos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "curso",
+        "Type": "FutureSkillHub.Api.Models.Curso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FutureSkillHub.Api.Controllers.CursoV1Controller",
+    "Method": "Get",
+    "RelativePath": "api/v1/cursos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FutureSkillHub.Api.Controllers.CursoV1Controller",
+    "Method": "Put",
+    "RelativePath": "api/v1/cursos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "curso",
+        "Type": "FutureSkillHub.Api.Models.Curso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FutureSkillHub.Api.Controllers.CursoV1Controller",
+    "Method": "Delete",
+    "RelativePath": "api/v1/cursos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FutureSkillHub.Api.Controllers.CursoV2Controller",
+    "Method": "Get",
+    "RelativePath": "api/v2/cursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
